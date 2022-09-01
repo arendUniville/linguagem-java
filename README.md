@@ -64,7 +64,7 @@ Revisão sobre a linguagem Java
 * [Classe Math](05-classMath.md)
   * Definição
   * Principais operações 
-* String
+* [String](06-strings.md)
   * Concatenação de String
   * Principais operações sobre String
   * Comparação de String
