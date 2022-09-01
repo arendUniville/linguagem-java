@@ -1,5 +1,5 @@
 <h2>Saída de Dados</h2>
-  * Método System.out.println
+  <li>Método System.out.println</li>
   
         public class text {
           public static void main(String[] args) {
