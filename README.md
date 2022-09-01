@@ -61,7 +61,7 @@ Revisão sobre a linguagem Java
   * Método System.out.print
   * Exibir o valor de uma variável
   * Exibir o valor de um decimal  
-* Classe Math
+* [Classe Math](05-classMath.md)
   * Definição
   * Principais operações 
 * String
