@@ -1,0 +1,5 @@
+* [Entrada de Dados](07-estruturaDeDados)
+  * Classe Scanner
+    * Obter um valor inteiro
+    * Obter um valor decimal
+    * Obter um valor de texto 
