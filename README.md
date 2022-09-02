@@ -69,12 +69,12 @@ Revisão sobre a linguagem Java
   * Principais operações sobre String
   * Comparação de String
   * Diferença entre String e caracter
-* [Entrada de Dados](07-estruturaDeDados)
+* [Entrada de Dados](07-estruturaDeDados.md)
   * Classe Scanner
     * Obter um valor inteiro
     * Obter um valor decimal
     * Obter um valor de texto 
-* Fluxo de Controle
+* [Fluxo de Controle](08-fluxoDeControle.md)
   * Estruturas de Decisões
     * if-else-then
     * switch
