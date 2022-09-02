@@ -53,13 +53,57 @@
 <h3>Estruturas de Repetições</h3>
   
 <li>for</li>
+
+    for(int i = 0; i < 5; i++){
+        
+        System.out.println(i);
+        
+     }
   
 <li>while</li>
+
+    boolean trigger = true;
+
+    while(trigger){
+
+        System.out.println("Entrou uma vez");
+        System.out.println(trigger);
+
+        trigger = false;
+
+        System.out.println("Mudou estado");
+        System.out.println(trigger);
+        
+    }
   
 <li>do-while</li>
+
+        int i = 5;
+        
+		do {
+        
+			System.out.println(i);
+            
+			i++;
+            
+		} while (i <= 10);
   
   
 <li>Comando break</li> 
+
+    for (int i = 0; i < 10; i++) {
+      if (i == 4) {
+        break;
+      }
+      System.out.println(i);
+    }
   
   
 <li>Comando continue</li>
+
+    for (int i = 0; i < 10; i++) {
+      if (i == 4) {
+        continue;
+      }
+      System.out.println(i);
+    }
