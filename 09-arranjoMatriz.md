@@ -15,7 +15,7 @@ Essa estrutura de dados também é conhecida como variável indexada, vetor (par
 
 <li><b>Declaração de matrizes</b></li>
 
-    const matriz = [ [1,2],[3,4],[5,6] ];
+    int[][] matriz = new int[2][2];
 
 <li><b>Percorrer arranjos</b></li>
 
@@ -81,10 +81,83 @@ Essa estrutura de dados também é conhecida como variável indexada, vetor (par
 
 <li><b>Linha a linha</b></li>
 
+    public static char[][] bidArray = new char[][]{{'1', '2', '3'}, {'4', '5', '6'}, {'7', '8', '9'}};
+
+    public static void main(String[] args) {
+  
+      for(int i = 0; i < bidArray.length; i++){            
+         System.out.println("linha " + i + ": " +Arrays.toString(bidArray[i]));
+         
+     }
+
 <li><b>Coluna a coluna</b></li>
+
+    for (int linha = 0; linha < suatabela.getRowCount(); linha++) {
+          
+          for (int coluna = inicio; coluna <= fim; coluna++) {//dependendo do entendimento, pode ser usado coluna < fim, dentro deste for
+              System.out.print(suatabela.getValueAt(linha, coluna) + " ");
+              
+          }
+          
+          System.out.println("");
+      }
+
 
 <li><b>Em diagonal</b></li>
 
+   public static void main(String[] args) {
+      Scanner ler = new Scanner(System.in);
+
+      int n = ler.nextInt();
+
+      int matriz[][] = new int[n][n];
+
+      for (int i = 0; i < n; i++) {
+          // Informa a linha.
+          System.out.printf("Informe os elementos %da. linha:\n", (i + 1));
+          for (int j = 0; j < n; j++) {
+              // Informa qual número deve se colocar.
+              System.out.printf("m[%d][%d] = ", i, j);
+              matriz[i][j] = ler.nextInt();
+          }
+          
+      }
+
+      // Obtém a soma das diagonais.
+      int somaDiagonal1 = 0, somaDiagonal2 = 0;
+      for (int i = 0; i < n; i++) {
+          somaDiagonal1 += matriz[i][i];
+          somaDiagonal2 += matriz[n - 1 - i][i];
+      }
+
+      // Calcula a diferença das somas.
+      int diferenca = somaDiagonal1 - somaDiagonal2;
+      if (diferenca < 0) diferenca *= -1;
+
+      // Exibe o resultado.
+      System.out.printf("A difereça da soma das diagonais é %d.", diferenca);
+  }
+
+
 <li><b>Utilizar arranjos e matrizes como parâmetros de métodos</b></li>
 
+    public class Main{
+      public static void addArrays(int[] arr1, int[] arr2){ // Passando dois arrays na declaração do método i[] demonstra que é um array
+      
+          for(int i = 0; i < arr1.length; i++){
+          
+              int sum = arr1[i] + arr2[i];
+              System.out.print(sum + " ");
+          }
+      }
+    }
+
 <li><b>Utilizar arranjos e matrizes como retorno de métodos</b></li>
+
+    public class Main{
+        public static void main(String[] args){
+            int[] arr1 = {1, 2, 3, 4, 5};
+            int[] arr2 = {2, 4, 6, 8, 10};
+            addArrays(arr1, arr2);// Passando dois arrays declarados como parâmetros para chamar o método
+        }
+    }
