@@ -3,7 +3,7 @@ Revisão sobre a linguagem Java
 
 ## Tópicos de Estudos
 
-* [Linguagem de programação Java](01.md)
+* [01 - Linguagem de programação Java](01.md)
   * Paradigmas de Programação
   * Modelo de Tipagem de dados
   * Modelo de construção da Linguagem  
@@ -37,7 +37,7 @@ Revisão sobre a linguagem Java
     * Principais bibliotecas/frameworks 
       * Survey da Stackoverflow 
       * Survey da Jetbrains  
-* [Hello World](02.md)
+* [02 - Hello World](02.md)
   * Estrutura mínima de um código Java
   * Nome do arquivo e Extensão
   * Nome da classe
@@ -47,7 +47,7 @@ Revisão sobre a linguagem Java
   * Delimitação de uma instrução
   * Delimitação de bloco de instruções
   * Compilação e Execução via linha de comando
-* [Tipos de Dados e operadores](03.md)
+* [03 - Tipos de Dados e operadores](03.md)
   * Tipos de Dados
   * Declarações de variáveis
   * Nomes válidos para variáveis e boas práticas 
@@ -56,25 +56,25 @@ Revisão sobre a linguagem Java
     * Operadores aritméticos
     * Operadores booleanos
   * Conversão de tipos de dados
-* [Saída de Dados](04-SaidaDeDados.md)
+* [04 - Saída de Dados](04-SaidaDeDados.md)
   * Método System.out.println
   * Método System.out.print
   * Exibir o valor de uma variável
   * Exibir o valor de um decimal  
-* [Classe Math](05-classMath.md)
+* [05 - Classe Math](05-classMath.md)
   * Definição
   * Principais operações 
-* [String](06-strings.md)
+* [06 - String](06-strings.md)
   * Concatenação de String
   * Principais operações sobre String
   * Comparação de String
   * Diferença entre String e caracter
-* [Entrada de Dados](07-estruturaDeDados.md)
+* [07 - Entrada de Dados](07-estruturaDeDados.md)
   * Classe Scanner
     * Obter um valor inteiro
     * Obter um valor decimal
     * Obter um valor de texto 
-* [Fluxo de Controle](08-fluxoDeControle.md)
+* [08 - Fluxo de Controle](08-fluxoDeControle.md)
   * Estruturas de Decisões
     * if-else-then
     * switch
@@ -83,7 +83,7 @@ Revisão sobre a linguagem Java
     * while
     * do-while 
     * Comandos break e continue
-* [Arranjos e Matrizes](09-arranjoMatriz.md)
+* [09 - Arranjos e Matrizes](09-arranjoMatriz.md)
   * Definição matemática
   * Declaração de arranjos
   * Declaração de matrizes
@@ -94,7 +94,7 @@ Revisão sobre a linguagem Java
     * Em diagonal 
   * Utilizar arranjos e matrizes como parâmetros de métodos 
   * Utilizar arranjos e matrizes como retorno de métodos 
-* [Tratamento de Exceções](tratarExcecao.md)
+* [10 - Tratamento de Exceções](tratarExcecao.md)
   * Definição
   * Exceções comuns
     * Divisão por zero
@@ -105,7 +105,7 @@ Revisão sobre a linguagem Java
   * Bloco para capturar diferentes exceções 
   * Bloco finally
   * Lançar uma exceção
-* [Métodos estáticos](11-MetodosEstaticos.md)
+* [11 - Métodos estáticos](11-MetodosEstaticos.md)
   * Estrutura de declaração de um método estático
   * Nomes válidos e boas práticas 
   * Parâmetros 
@@ -114,7 +114,7 @@ Revisão sobre a linguagem Java
     * Disponíveis na mesma classe
     * Disponíveis em outra classe/arquivo. 
   * Recursão 
-* [Classe](12-classe.md)
+* [12 - Classe](12-classe.md)
   * Definição
     * Representação de classe e objeto na UML
     * Diferença entre classe e objeto
@@ -131,7 +131,7 @@ Revisão sobre a linguagem Java
     * Privado 
   * Sobrecarga de métodos
   * Sobrecarga de construtores
-* [Pacotes](13-pacotes.md) 
+* [13 - Pacotes](13-pacotes.md) 
   * Definição
      * Representação de pacotes na UML
   * Definição de um pacote em uma classe
@@ -140,10 +140,10 @@ Revisão sobre a linguagem Java
      * Default/Pacote  
   * Pacote default
     * Importar uma classe em um pacote default 
-* [Escopo de classe e objeto](14-escopoDeClasseObjeto.md)
+* [14 - Escopo de classe e objeto](14-escopoDeClasseObjeto.md)
   * Definição 
   * Palavra reservada static 
-* [Herança](15-heranca.md)
+* [15 - Herança](15-heranca.md)
   * Definição
      * Representação de herança na UML
   * Criação de uma classe que realiza herança 
@@ -155,20 +155,20 @@ Revisão sobre a linguagem Java
   * Palavra reservada super 
      * Encadeamento de construtor 
      * Encadeamento de método
-* [Interface](16-interface.md)
+* [16 - Interface](16-interface.md)
   * Definição
      * Representação de interface na UML
   * Criação de uma classe que implementa uma interface
   * Sobreescrita de métodos
   * Polimorfismo
     * Conversão de tipos 
-* [Classe abstrada](17-classeAbstrata.md)
+* [17 - Classe abstrada](17-classeAbstrata.md)
   * Definição
      * Representação de classe abstrata na UML
   * Criação de uma classe que extende uma classe abstrata
   * Polimorfismo
     * Conversão de tipos 
-* [Coleções](18-colecoes.md) 
+* [18 - Coleções](18-colecoes.md) 
   * Definição
   * List e Arraylist 
     * Aplicações
@@ -186,10 +186,10 @@ Revisão sobre a linguagem Java
       * Acessar elementos
       * Atualizar elementos 
       * Remover elementos 
-* [Tipo Enumerado](19-tipoEnumerado.md)
+* [19 - Tipo Enumerado](19-tipoEnumerado.md)
   *  Definição
      * Representação de tipos enumerados na UML
-* [Representação de tempo](20-representacaoDeTempo.md)
+* [20 - Representação de tempo](20-representacaoDeTempo.md)
   * Classe Date
   * Classe Calendar
   * API Date/Time Java 8
