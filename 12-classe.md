@@ -1,5 +1,13 @@
-<h2>Definição</h2> <br>
+<h2>Classes</h2> <br>
 
+
+<h3>Definição</h3>
+
+```java
+
+  boolean conteudo = false;
+
+```
 
 <h3>Representação de classe e objeto na UML</h3>
 
