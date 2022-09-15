@@ -105,7 +105,7 @@ Revisão sobre a linguagem Java
   * Bloco para capturar diferentes exceções 
   * Bloco finally
   * Lançar uma exceção
-* Métodos estáticos
+* [Métodos estáticos](11-MetodosEstaticos.md)
   * Estrutura de declaração de um método estático
   * Nomes válidos e boas práticas 
   * Parâmetros 
@@ -114,7 +114,7 @@ Revisão sobre a linguagem Java
     * Disponíveis na mesma classe
     * Disponíveis em outra classe/arquivo. 
   * Recursão 
-* Classe
+* [Classe](12-classe.md)
   * Definição
     * Representação de classe e objeto na UML
     * Diferença entre classe e objeto
