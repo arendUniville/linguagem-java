@@ -1,32 +1,83 @@
 <h2>Métodos estáticos</h2> <br>
 
 
-<h2>Estrutura de declaração de um método estático</h2>
+<h3>Estrutura de declaração de um método estático</h3>
+
+```java
+
+  public static void main(String[] args){
+  
+    System.out.print("Este é um método estático");
+  
+  }
+
+```
+
 
 <br>
 
-<h2>Nomes válidos e boas práticas</h2>
+<h3>Nomes válidos e boas práticas</h3>
+
+
 
 <br>
 
-<h2>Parâmetros</h2>
+<h3>Parâmetros</h3>
+
+```java
+    
+  public static double valorSalario(double valorHora, double horasTrabalhadas){
+  
+  }    
+  
+```
 
 <br>
 
-<h2>Retorno</h2>
+<h3>Retorno</h3>
+
+```java
+    
+  public static double valorSalario(double valorHora, double horasTrabalhadas){
+  
+    return horasTrabalhadas * valorHora;
+  
+  }    
+  
+```
 
 <br>
 
-<h2>Utilização de métodos estáticos</h2>
+<h3>Utilização de métodos estáticos</h3>
+
+```java
+
+  public class CalculadoraSalario{
+
+    public static double valorSalario(double valorHora, double horasTrabalhadas){
+
+      return horasTrabalhadas * valorHora;
+
+    }    
+  
+  }
+  
+  public class PagamentoFuncionarios{
+  
+    double resultado = CalculadoraSalario.valorSalario(40.50, 5);
+  
+  }
+  
+```
 
 <br>
 
-<h2>Disponíveis na mesma classe</h2>
+<h3>Disponíveis na mesma classe</h3>
 
 <br>
 
-<h2>Disponíveis em outra classe/arquivo.</h2>
+<h3>Disponíveis em outra classe/arquivo.</h3>
 
 <br>
 
-<h2>Recursão</h2>
+<h3>Recursão</h3>
